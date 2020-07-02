@@ -1,7 +1,15 @@
 import React from "react"
+import Link from "next/link"
 
 export default function Sobre () {
     return (
-        <h1>Sobre</h1>
+        <div>
+            <h1>Sobre</h1>
+            <div>
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
+            </div>
+        </div>
     )
 }
