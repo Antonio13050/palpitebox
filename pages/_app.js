@@ -1,11 +1,14 @@
 import React from 'react'
 import '../css/styles.css'
+import Layout from '../components/Layout'
+
 
 export default function MyApp({ Component, pageProps }) {
     return (
-        <div>
-            <h1>My App</h1>
+     
+        <Layout>
             <Component {...pageProps} />
-        </div>
+        </Layout>
+       
     )
 }
